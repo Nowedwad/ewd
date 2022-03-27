@@ -5,6 +5,9 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+::-webkit-scrollbar{
+	width: 0;
+}
 body{
 	background-image: url(img/wall.jpg);
 	background-repeat: no-repeat;
@@ -16,18 +19,12 @@ main{
 	height: 100vh;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-}
-section{
-	height: 600px;
-	padding: 50px 150px;
-}
-::-webkit-scrollbar{
-	width: 0;
+	align-items: center;	
 }
 .section{
 	border: 3px dashed rgba(255, 255, 255, .5);
-	height: 100%;
+	width: 950px;
+	height: 450px;
 	padding: 50px;
 	overflow: auto;
 	display: flex;
@@ -43,14 +40,16 @@ section{
 	align-items: center;
 	font-size: 30px;
 	font-weight: 600;
-	width: 190px;
+	width: 23%;
 	height: 120px;
 	border: 2px solid rgba(255, 255, 255, .5);
 	margin: 5px;
 	transition: .2s linear;
+	overflow: hidden;
 }
 .links:hover{
 	border: 2px solid rgba(255, 255, 255, .8);
 	color: rgba(255, 255, 255, .8);
 	background-color: rgba(0, 0, 0, .3);
+	font-size: 33px;
 }
