@@ -9,10 +9,10 @@
 	width: 0;
 }
 body{
-	background-image: url(img/wall.jpg);
+	background-image: url(img/wall2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: rgb(0, 0, 30);
+	background-color: rgba(0, 0, 0, .2);
 }
 main{
 	width: 100%;
@@ -26,6 +26,10 @@ main{
 	width: 950px;
 	height: 450px;
 	padding: 50px;
+}
+.article{
+	height: 100%;
+	width: 100%;
 	overflow: auto;
 	display: flex;
 	justify-content: center;
@@ -48,8 +52,8 @@ main{
 	overflow: hidden;
 }
 .links:hover{
-	border: 2px solid rgba(255, 255, 255, .8);
-	color: rgba(255, 255, 255, .8);
+	border: 2px solid rgba(240, 115, 93, .7);
+	color: #f0735d;
 	background-color: rgba(0, 0, 0, .3);
 	font-size: 33px;
 }
