@@ -32,6 +32,7 @@ main{
 	width: 100%;
 	overflow: auto;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	flex-wrap: wrap;
 }
@@ -45,6 +46,7 @@ main{
 	font-size: 30px;
 	font-weight: 600;
 	width: 23%;
+	min-width: 15%;
 	height: 120px;
 	border: 2px solid rgba(255, 255, 255, .5);
 	margin: 5px;
@@ -57,3 +59,17 @@ main{
 	background-color: rgba(0, 0, 0, .3);
 	font-size: 33px;
 }
+.links:focus{
+	outline: none;
+	border: 2px solid rgba(240, 115, 93, .7);
+	color: #f0735d;
+	background-color: rgba(0, 0, 0, .3);
+	font-size: 33px;	
+}
+
+
+
+
+
+
+
